@@ -1,0 +1,419 @@
+body {
+    font-family: "微软雅黑";
+    background-color: #f9f9f9;
+  }
+  .footer {
+    border-top: 1px solid #ccc;
+    background-color: #fff;
+    margin: 0.30666667rem 0rem 0rem 0rem;
+    height: 2.2rem;
+    padding: 0.6rem 0rem 0rem 0rem;
+    text-align: center;
+  }
+  .footer .links {
+    margin: 0rem 0rem 0.26666667rem 0rem;
+  }
+  .footer .links a {
+    margin: 0rem 0.06666667rem 0rem 0.06666667rem;
+    color: #494848;
+    font-size: 0.37333333rem;
+  }
+  .footer .copyright {
+    color: #9a9b9c;
+    font-size: 0.34666667rem;
+  }
+  body,
+  ul,
+  li,
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  div,
+  p,
+  ol,
+  table,
+  form,
+  section,
+  dl,
+  dt,
+  dd,
+  header,
+  footer {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+  }
+  ul,
+  ol {
+    list-style: none;
+  }
+  img {
+    border: none;
+    vertical-align: middle;
+  }
+  input,
+  select,
+  textarea {
+    outline: none;
+    border: none;
+    background: none;
+  }
+  textarea {
+    resize: none;
+  }
+  a {
+    text-decoration: none;
+  }
+  h1,
+  h2,
+  h3,
+  h4 {
+    font-weight: normal;
+  }
+  em,
+  i {
+    font-style: normal;
+  }
+
+  /* ============ */
+ 
+  /* header */
+  header {
+	   width: 100%;
+	   height:1.253333rem;
+	   background-color: #Fa3432;
+	   display: flex;
+	   justify-content: space-between;
+	   align-items: center;
+	   padding-left: .426667rem;
+	   padding-right: .426667rem;
+	   font-size: .4rem;
+  }
+  header a{
+	  color:#FFFFFF;
+  }
+  header .loginArer {
+	  color:#FFFFFF;
+  }
+  header .logo {
+	 
+	  background: url(../img/login_img.png)no-repeat left center;
+	  background-size: .626666rem .653333rem;
+	  padding-left:.76rem ;
+  }
+   header .logo h1 {
+	  font-size: 0.4rem;
+   }
+   .topmenu {
+	   width: 100%;
+	   height: 1.146666rem;
+	   font-size: .4rem;
+	   display: flex;
+	   justify-content: space-around;
+	   align-items: center;
+	   background-color: #FFFFFF;
+   }
+   .topmenu a {
+	   font-size: .32rem;
+	   color:#3e3d3d ;
+   }
+   .topmenu a:hover {
+	   color:#ff3636 ;
+   }
+   
+   .lubo{
+      width: 100%;
+      height: 4.84rem;
+      background: url(../img/slider1.jpg) no-repeat;
+      background-size: cover;
+   }
+   .Bigbox {
+     width: 100%;
+     height: 2.666667rem;
+     padding-top: .453333rem;
+     display: flex;
+     justify-content: space-around;
+     background-color: #fff;
+     
+
+   }
+   .Bigbox .box1,.box2,.box3,.box4 {
+     width: 1.2rem;
+     height: 1.2rem;
+  
+
+   }
+   .Bigbox div a {
+     font-size: .333333rem;
+     color: #808080;
+     display: block;
+    margin-top: .133333rem;
+   }
+   .Bigbox .box1 {
+     background: url(../img/home_ico_01.png);
+     background-size: cover;
+   }
+   .Bigbox .box2 {
+    background: url(../img/home_ico_02.png);
+    background-size: cover;
+  }
+  .Bigbox .box3 {
+    background: url(../img/home_ico_03.png);
+    background-size: cover;
+  }
+  .Bigbox .box4 {
+    background: url(../img/home_ico_04.png);
+    background-size: cover;
+  }
+  .Sbigbox {
+    width: 100%;
+    
+    background-color:#f9f9f9 ;
+  }
+  .Sbigbox .hot {
+    width: 100%;
+    height: 1.266667rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: .4rem;
+    padding: 0rem 0.333333rem 0rem .52rem;
+    
+  }
+  .Sbigbox .hot .Hotlogo {
+    width: 2.626667rem;
+    height: .573333rem;
+    padding-left: .70rem;
+    
+    background: url(../img/home_ico_09.png) no-repeat left center;
+    background-size: .56rem  .573333rem;
+    display: flex;
+    align-items: center;
+  }
+  .Sbigbox .hot .Hotlogo a {
+    display: block;
+  }
+  .Sbigbox .hot .Hotlogo a h3 {
+      color: #494848;
+  }
+  .Sbigbox .gd a{
+    color: #9a9b9c;
+  }
+.yingxin {
+    width: 93.33333%;
+    height: 3.4rem;
+    background-color: #FFFFFF;
+    box-shadow:0px 0px  3px 1px #bebebe;
+   margin-left: .333333rem;
+   margin-bottom: 0.333333rem;
+   padding: .333333rem
+   
+}
+.yingxin .fanqianBox {
+  width: 100%;
+  
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.yingxin .fanqianBox .fbox23 {
+  width: 1.666667rem;
+  display: flex;
+  justify-content: space-between;
+}
+.yingxin .fanqianBox .fbox2 {
+  width: 1.133333rem;
+  height: .4rem;
+  background-color: #ffab37;
+  margin-right: .08rem;
+}
+.yingxin .fanqianBox .fbox2 p {
+  font-size: .293333rem;
+  color: #FFFFFF;
+  text-align: center;
+  line-height: .4rem;
+  letter-spacing: .013333rem;
+  
+}
+.yingxin .fanqianBox .fbox3 p {
+ width: .44rem;
+  height: .4rem;
+  background-color: #ff7404;
+  text-align: center;
+  line-height: .4rem;
+  font-size:.393333rem ;
+  
+}
+.yingxin .fanqianBox .fbox3 p{
+  color: #fff;
+}
+.yingxin .fanqianBox .fbox1 {
+  width: 3.786667rem;
+  
+  
+}
+.yingxin .fanqianBox .fbox1 h2 {
+  font-size: .393333rem;
+  color: #494848;
+  font-weight: 600;
+  letter-spacing: .014667rem;
+  
+}
+.yingxin .fanqianBox .fbox1 a:link{
+  color: #494848;
+  
+}
+.yingxin .fanqianBox .fbox1 a:visited{
+  color: #494848;
+  
+}
+.yingxin .shuziBox {
+  width: 100%;
+  height: 1.813333rem;
+  padding: 0rem 0.24rem 0rem 0.573333rem;
+  margin-top: 0.373333rem;
+  background-color: #fff;
+  display: flex;
+  justify-content: space-between;
+  
+  
+
+}
+.yingxin .shuziBox .shuBox1 {
+  
+  height: 100%;
+  display: flex;
+  padding-top: 0.706667rem;
+  letter-spacing: 0.026667rem;
+}
+.yingxin .shuziBox .shuBox1 .bigzi{
+  font-size: 0.506667rem;
+  color: #fb4034;
+}
+.yingxin .shuziBox .shuBox1 .smallzi {
+  font-size: 0.32rem;
+  color: #ff7900;
+  padding-top: 0.186667rem;
+}
+.yingxin .shuziBox .shuBox2 {
+  width: 1.6rem;
+  height: 100%;
+  padding-top: 0.373333rem;
+  margin-left: 1.16rem;
+  margin-right: 0.746667rem;
+  display: flex;
+  flex-wrap: wrap;
+}
+.yingxin .shuziBox .shuBox2 span {
+  width: 100%;
+  font-size: 0.4rem;
+  display: flex;
+  color: #9a9b9c;
+
+}
+.yingxin .shuziBox .shuBox2 .tsBox {
+  width: 100%;
+  letter-spacing: 0.013333rem;
+}
+.yingxin .shuziBox .shuBox2 .tsBox .tian{
+  margin-left: 0.106667rem;
+}
+.yingxin .shuziBox .shuBox2 .qxBox{
+  width: 100%;
+}
+.yingxin .shuziBox .shuBox2 .tsBox .shuziqixian {
+ color: #3d3c3c;
+}
+.yingxin .shuziBox .shuBox3 {
+  width: 1.813333rem;
+  height: 1.813333rem;
+  border:0.053333rem solid #ffe2e0;
+  border-radius: 50%;
+  text-align: center;
+
+}
+.yingxin .shuziBox .shuBox3 p {
+  color: #fb4034;
+  font-size: 0.506667rem;
+  line-height: 1.813333rem;
+  letter-spacing: 0.013333rem;
+}
+
+.Sbigbox .qiyeLogo {
+  
+  margin: 0rem 0.333333rem 0.4rem 0.333333rem;
+  
+  font-size: 0.4rem;
+  background: url(../img/home_ico_10.png) no-repeat left;
+  background-size: 0.6rem,0.48rem;
+}
+.Sbigbox .qiyeLogo p {
+  color: #494747;
+  padding-left: 0.893333rem;
+}
+.qybigBox {
+  width: 100%;
+  height: 7.2rem;
+  background-color: #fff;
+  font-size: 0.32rem;
+  color: #9a9b9c;
+  
+  box-shadow:0px 0px  3px 1px #bebebe;
+}
+.qyBox1 {
+  width: 100%;
+  padding: 0.466667rem 0.306667rem 0.466667rem 0.306667rem;
+  display: flex;
+}
+ .tubox {
+  width: 1.466667rem;
+  height: 1.466667rem;
+  background: url(../img/news20170310144045_植树节专享标题.jpg)no-repeat;
+  background-size: cover;
+  margin-right: 0.306667rem;
+  border-radius: 0.333333rem;
+  
+}
+.qybigBox .qyBox1 .chunbox {
+ 
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  
+}
+.qybigBox .qyBox1 .chunbox h4 {
+  color: #494848;
+  letter-spacing: 0.026667rem;
+}
+.qybigBox .qyBox1 .riqi {
+  margin-left: 2.76rem;
+  margin-top: 0.9rem;
+}
+.foot {
+  width: 100%;
+  height: 2.2rem;
+  background-color: #FFFFFF;
+  padding-top: 0.6rem;
+  margin-top: 0.333333rem;
+  display: flex;
+  flex-direction: column;
+  align-content: space-around;
+  text-align: center;
+  font-size: 0.373333rem;
+  color: #494848;
+  letter-spacing: 0.026667rem;
+}
+.foot span {
+  display: flex;
+  justify-content: center;
+  margin-top: 0.346667rem;
+  font-size: 0.346667rem;
+  color: #9a9b9c;
+}
+.foot span p {
+  padding-right: 0.346667rem;
+}

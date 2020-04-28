@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <link rel="stylesheet" href="./css/detaicReset.css">
+    <link rel="stylesheet" href="./css/iconfont.css">
+    <link rel="stylesheet" href="./css/detail.css">
+    <script>
+        window.onload = function () {
+            var fs = document.documentElement.clientWidth / 750 * 100;
+            document.querySelector("html").style.fontSize = fs + "px";
+        }
+    </script>
+    <title>Document</title>
+</head>
+<body>
+    <header>
+    <a href="./index.html"><i class="iconfont icon-fanhui"></i></a>
+    <span>赚钱计划8号1期</span>
+    <i id="menu" class="iconfont icon-caidan"></i>
+   
+</header>
+<!-- data -->
+<div class="DataBox">
+    <p class="Bigdata">
+        <strong>9.2%+0.5%</strong>
+    </p>
+    <div class="Smalldata">
+        <p class="qian"><em> 9.7%</em></p>
+        <p class="hou"><em>(9.2+活动加息0.5%)</em></p>
+    </div>
+</div>
+<div class="ZigeBox">
+    <P>
+        1000元起投
+    </P>
+    <p>
+        期限180天
+    </p>
+</div>
+<!-- 四个小图标 -->
+<div class="TubiaoBox">
+    
+    <ul>
+        <li>
+            <i class="iconfont icon-xinshouzhiyin "></i>省级律所法律支持
+        </li>
+        <li>
+            <i class="iconfont icon-xinshouzhiyin "></i>省级律所法律支持
+        </li>
+        <li>
+            <i class="iconfont icon-xinshouzhiyin "></i>省级律所法律支持
+        </li>
+        <li>
+            <i class="iconfont icon-xinshouzhiyin "></i>省级律所法律支持
+        </li>
+    </ul>
+
+</div>
+
+<!-- 进度 -->
+<div class="JinduBox">
+   
+    <div class="JdBox">
+        <div class="ZsBox">
+            <p>37%</p>
+            <p></p>
+        </div>
+
+        <div class="bigjd">
+            <div class="smalljd">
+
+            </div>
+        </div>
+    </div>
+    <div class="Ztbox">
+        <p>已投资<em>37</em>人>></p>
+        <p>剩余可投<em>623000</em>元</p>
+    </div>
+</div>
+<!-- foot -->
+<div class="footerlink">
+    <p><a href="">查看项目详情></a></p>
+</div>
+
+<footer>
+    <a href="#" class="earnings">收益估算</a>
+      <a href="#" class="investment">立即投资</a>
+</footer>
+
+<!-- 按钮 -->
+<div class="mask" id="mask">
+    <div class="nav">
+        <a href="#">
+            <i class="iconfont icon-zhuye"></i>
+            <span>主页</span>
+        </a>
+        <a href="#">
+            <i class="iconfont icon-suo"></i>
+            <span>安全保障</span>
+        </a>
+        <a href="#">
+            <i class="iconfont icon-touzi"></i>
+            <span>我要投资</span>
+        </a>
+        <a href="#">
+            <i class="iconfont icon-jiaruwomen"></i>
+            <span>账户中心</span>
+        </a>
+    </div>
+</div>
+<script type="text/javascript">
+
+        var mask = document.getElementById("mask");
+        var menu = document.getElementById("menu");
+        menu.onclick = function(){
+          
+          var ma =  mask.style.display == 'block';
+          if (ma) {
+              mask.style.display = 'none';
+             
+          } else {
+            mask.style.display = 'block';
+          }
+        }
+
+</script>
+</body>
+</html>
